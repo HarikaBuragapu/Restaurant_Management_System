@@ -1,0 +1,50 @@
+body{
+background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("restaurant2.jpg");
+height:100%;
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+font-size: 35;
+color:mistyrose;
+font-style:oblique;
+
+}
+    /* .c2 {
+    color:grey;
+    font-size:20px;
+    font-style:normal;
+    } */
+.buttons{
+    margin-left: 2%;
+    padding: 10px 10px;
+     
+}
+.buttons div{
+    float: right;
+    display: inline;
+    /* position: absolute; */
+    padding-left: 20px;
+    
+}
+.buttons div input{
+    background: transparent;
+    color:bisque;
+    font-weight: 700px;
+    font-size: 25px;
+    border-radius: 20px;
+    border-color: bisque;
+    border: 0ch; 
+}
+.buttons div input:hover{
+    /* background-color: red; */
+    text-decoration-line: underline ;
+    color:black;
+}
+.buttons div input .booking{
+    background:bisque;
+    color:bisque;
+    font-weight: 700px;
+    font-size: 25px;
+    border-radius: 20px;
+    border-color: bisque; 
+}
